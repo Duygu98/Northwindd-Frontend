@@ -17,7 +17,6 @@ import { CartSummaryComponent } from './cart-summary/cart-summary.component';
 import { ProductAddComponent } from './components/product-add/product-add.component';
 import { LoginComponent } from './components/login/login.component'
 import { AuthInterceptor } from './interceptors/auth.interceptor';
-import { CartDetailComponent } from './components/cart-detail/cart-detail.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,6 @@ import { CartDetailComponent } from './components/cart-detail/cart-detail.compon
     CartSummaryComponent,
     ProductAddComponent,
     LoginComponent,
-    CartDetailComponent
   ],
   imports: [
     BrowserModule,
